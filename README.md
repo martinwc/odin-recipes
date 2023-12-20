@@ -7,4 +7,4 @@ This is a pratice project on listing recipies with HTML. The goals are:
 
 12/20/2023:
 
-<!-- 1. removed <li> from index.html recipe list -->
+1. removed "<li>" from index.html recipe list
