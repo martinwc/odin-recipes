@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Garamond", "Helvetica", sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    border-bottom: 2px solid #68686D;
+    letter-spacing: 3px;
+    margin: 16px;
+    padding: 16px;
+}
+
+.main-recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin: auto;
+    max-width: 650px;
+}
+
+.first-recipe,
+.second-recipe {
+    text-align: center;
+}
+
+p {
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
