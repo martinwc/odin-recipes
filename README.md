@@ -12,3 +12,14 @@ This is a pratice project on listing recipies with HTML. The goals are:
 12/23/2023:
 
 Added CSS file and properties to index.html recipe list
+
+12/26/2023:
+
+Added CSS files and css styling properties to:
+
+KFC.HTML
+Guilin.HTML
+Cheungfan.HTML
+Index.html
+
+-added divs and styling to recipe list

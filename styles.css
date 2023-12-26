@@ -1,6 +1,14 @@
+
+/* Main Page */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-family: "Garamond", "Helvetica", sans-serif;
+    color: white;
 }
 
 .header {
@@ -14,16 +22,20 @@ body {
 }
 
 .main-recipes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    margin: auto;
-    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .first-recipe,
-.second-recipe {
-    text-align: center;
+.second-recipe,
+.third-recipe {
+    flex-basis: 30%;
+    padding: 16px;
+    height: 250px;
+    margin: 5px;
+    box-sizing: border-box;
 }
 
 p {
@@ -31,5 +43,5 @@ p {
     text-align: center;
     margin: auto;
     padding: auto;
+    justify-content: space-between;
 }
-
